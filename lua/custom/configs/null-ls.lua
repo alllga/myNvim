@@ -12,6 +12,9 @@ null_ls.setup({
     -- javascript & typescript
     lint.eslint,
     formatting.prettier,
+    -- php
+    lint.phpcs,
+    formatting.phpcbf,
   },
 })
 

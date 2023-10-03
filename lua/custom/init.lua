@@ -1,13 +1,7 @@
--- line number
--- show line number
--- vim.opt.number = true
+vim.opt.tabstop = 8 -- Always 8 (see :h tabstop) 
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
 
--- called by ~/.config/nvim/init.vim with: lua require("init")
-vim.opt.tabstop = 8 -- Always 8 (see :h tabstop)
-vim.opt.softtabstop = 2
-vim.opt.shiftwidth = 2
--- vim.opt.expandtab = true -- Works without this
-
-vim.opt.colorcolumn = '80'
+vim.opt.colorcolumn = '80' -- adds a column for visibility at 80 chars
 vim.opt.linebreak = true
-
+vim.opt.pumheight = 10 -- completion height

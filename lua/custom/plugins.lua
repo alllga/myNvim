@@ -25,6 +25,8 @@ local plugins = {
         "eslint-lsp",
         "typescript-language-server",
         "prettier",
+        "phpcs",
+        "phpcbf"
       }
     }
   }
